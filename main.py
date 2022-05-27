@@ -16,10 +16,10 @@ def find_anagram(word, anagram):
     strHello_find_anagrams = list("hello")
     strHello_find_anagrams.sort()
     strCheck_find_anagrams = list("check")
-    strCheck_find_anagrams.sort()
+    strCheck_find_anagrams.sort() 
 
-    if list("hello") == list("check") and word == anagram:
-
+    if list("Hello") == list("check"):
       return True
     else:
       return False
+      print(find_anagram("hello", "check"))
