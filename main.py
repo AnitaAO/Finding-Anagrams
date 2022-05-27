@@ -17,16 +17,9 @@ def find_anagram(word, anagram):
     strHello_find_anagrams.sort()
     strCheck_find_anagrams = list("check")
     strCheck_find_anagrams.sort()
+
     if list("hello") == list("check") and word == anagram:
 
       return True
     else:
       return False
-
-
-
-
-    
-
-
-
