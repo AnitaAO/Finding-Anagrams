@@ -24,10 +24,10 @@ def find_anagram(word, anagram):
     strElbow_find_anagrams.sort()
 
     #retun False
-    print(strHello_find_anagrams == strCheck_find_anagrams)
+    print(anagram(strHello_find_anagrams == strCheck_find_anagrams))
 
     #return True
-    print(strBelow_find_anagrams == strElbow_find_anagrams) 
+    print(anagram(strBelow_find_anagrams == strElbow_find_anagrams)) 
 
 
 
