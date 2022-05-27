@@ -4,6 +4,7 @@
 # find_anagrams("below", "elbow") --> True
 
 
+import this
 from turtle import st
 
 
@@ -16,18 +17,11 @@ def find_anagram(word, anagram):
     strHello_find_anagrams.sort()
     strCheck_find_anagrams = list("check")
     strCheck_find_anagrams.sort()
+    if list("hello") == list("check") and word == anagram:
 
-      #finding_anagrams("below", "elbow") -- True
-    strBelow_find_anagrams = list("below")
-    strBelow_find_anagrams.sort()
-    strElbow_find_anagrams = list("elbow")
-    strElbow_find_anagrams.sort()
-
-    #retun False
-    print(anagram(strHello_find_anagrams == strCheck_find_anagrams))
-
-    #return True
-    print(anagram(strBelow_find_anagrams == strElbow_find_anagrams)) 
+      return True
+    else:
+      return False
 
 
 
